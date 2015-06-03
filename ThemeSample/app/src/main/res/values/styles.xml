@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="FontSizeStyle"/>
+
+    <style name="FontSizeStyle.Small">
+        <item name="font_small">10sp</item>
+        <item name="font_medium">14sp</item>
+        <item name="font_large">18sp</item>
+        <item name="font_xlarge">18sp</item>
+    </style>
+    <style name="FontSizeStyle.Medium">
+        <item name="font_small">14sp</item>
+        <item name="font_medium">18sp</item>
+        <item name="font_large">22sp</item>
+        <item name="font_xlarge">26sp</item>
+    </style>
+    <style name="FontSizeStyle.Large">
+        <item name="font_small">18sp</item>
+        <item name="font_medium">22sp</item>
+        <item name="font_large">26sp</item>
+        <item name="font_xlarge">30sp</item>
+    </style>
+    <style name="FontSizeStyle.xLarge">
+        <item name="font_small">30sp</item>
+        <item name="font_medium">35sp</item>
+        <item name="font_large">40sp</item>
+        <item name="font_xlarge">45sp</item>
+    </style>
+
+    <style name="mystyle1">
+        <item name="android:textSize">?attr/font_small</item>
+    </style>
+
+    <style name="mystyle2">
+        <item name="android:textSize">?attr/font_medium</item>
+    </style>
+    <style name="mystyle3">
+        <item name="android:textSize">?attr/font_large</item>
+    </style>
+    <style name="mystyle4">
+        <item name="android:textSize">?attr/font_xlarge</item>
+    </style>
+</resources>
